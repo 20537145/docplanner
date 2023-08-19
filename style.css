@@ -1,0 +1,127 @@
+body{
+    margin: 0px 200px;
+}
+.logo1 {
+    height: 33px;
+    width: 268px;
+    margin-top: 10px;
+  }
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav-links{
+    display: flex;
+  
+  }
+  .nav-links a:hover{
+    color: #00b39b;
+  }
+  .nav-links li{
+    margin-right:20px;
+    font: 15px roboto, arial, sans-serif ;
+    list-style: none;
+  }
+  .nav-links a{
+    color: #ababab;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .lead{
+    text-align: center;
+    padding: 50px;
+  }
+  .prs{
+    display: flex;
+    justify-content: space-between;
+  }
+  .prs p{
+    display: block;
+    font-family: Arial,sans-serif;
+    color: #747474;
+    margin: .8em 0;
+    line-height: 1.75;
+    font-weight: 400
+  }
+  .mkn{
+    color: #00b39b;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px;
+    font-size: 2em;
+    margin: .67em 0
+  }
+  .marketplace{
+    display: flex;
+  }
+  .item-1 h2{
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0;
+    color: #fff;
+}
+.item-2 h2{
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0;
+    color: #fff;
+}
+  .item-3 h2{
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0;
+    color: #fff;
+}
+  .marketplace div:first-child{
+    color: #fff;
+    background: #00ccb1;
+    border-radius: 10px;
+    padding: 2em 2em 0;
+    overflow: hidden;
+    height: 345px;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all .2s ease 0s;
+    }
+  .marketplace div:nth-of-type(2){
+    color: #fff;
+    background: #3d83df;
+    border-radius: 10px;
+    padding: 2em 2em 0;
+    overflow: hidden;
+    height: 345px;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all .2s ease 0s;
+  }
+  .marketplace div:last-child{
+    color: #fff;
+    background: #1b2734;
+    border-radius: 10px;
+    padding: 2em 2em 0;
+    overflow: hidden;
+    height: 345px;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all .2s ease 0s;
+  }
+   .marketplace div{
+    margin: 0px 20px;
+  }
+  .item-1:hover{
+    opacity: .9
+}
+.item-2:hover{
+    opacity: .9
+}
+.item-3:hover{
+    opacity: .9
+}
+#select-1{
+  border: transparent;
+  background: transparent;
+}
+  
