@@ -1,5 +1,5 @@
 body{
-    margin: 0px 450px;
+    margin: 0px 265px;
     font-weight: 400;
 }
 .logo1 {
@@ -10,6 +10,8 @@ body{
   .navbar{
     display: flex;
     justify-content: space-between;
+    position: sticky;
+    top: 0;
   }
   .nav-links{
     display: flex;
@@ -156,7 +158,6 @@ body{
   width: 80%;
     background: transparent;
     border: 0;
-    border-radius: 0;
     text-decoration: underline;
     font-size: 18px;
     height: 40px;
@@ -170,11 +171,10 @@ body{
   right: 22px;
   padding: 30px 90px 0px;
   color: #fff;
-  width: 104%;
+  width: 106%;
     background: transparent;
     font-size: 18px;
     border: 0;
-    border-radius: 0;
     padding: 0 2em 0 0;
     outline: 0;
     text-transform: none;
@@ -191,7 +191,6 @@ body{
     background: transparent;
     font-size: 17px;
     border: 0;
-    border-radius: 0;
     outline: 0;
     text-transform: capitalize;
     text-decoration: underline;
